@@ -12,7 +12,6 @@ namespace lab_5_part_2
         }
         static void Main(string[] args)
         {
-            try
             {
                 double x = Convert.ToDouble(Console.ReadLine());
                 double sum = 1;
@@ -31,11 +30,6 @@ namespace lab_5_part_2
                 }
                 Console.WriteLine(sum);
             }
-            catch (FormatException)
-            {
-                Console.WriteLine("exception");
-            }
-
         }
     }
 }
