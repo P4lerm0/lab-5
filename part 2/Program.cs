@@ -14,7 +14,7 @@ namespace lab_5_part_2
         {
             {
                 double x = Convert.ToDouble(Console.ReadLine());
-                double sum = 1;
+                double sum = 0;
                 Console.WriteLine("Сумма");
                 for (int k = 0; k < 9; k++)
                 {
